@@ -129,8 +129,12 @@ footer {
     color: var(--text-color);
   
     /* Sobrescrever as cores de outros elementos */
-    h1, section input, section button, .item-resultado h2, .item-resultado a {
+    h1, section input, section button, .item-resultado h2 {
       color: var(--text-color);
+    }
+
+    .item-resultado a{
+        color: var(--primary-color);
     }
   
     section button {
